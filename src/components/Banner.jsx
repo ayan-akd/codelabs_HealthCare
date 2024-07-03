@@ -4,13 +4,15 @@ import banner from "../assets/Rectangle 5.png";
 
 const Banner = () => {
   return (
-    <div 
-    // style={{ backgroundImage: `url(${bg_image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
-    >
-      <div className="mx-48 my-8">
+    <div className="relative mx-48 my-8">
       <img src={banner} className="w-full mb-8" alt="banner" />
-      {/* <img src={banner2} className="w-full mb-8" alt="banner" /> */}
-      </div>
+      <div
+        className="absolute top-0 left-0 w-full h-full rounded-[60px]"
+        style={{
+          background:
+            "linear-gradient(179.57deg, rgba(0, 193, 157, 0) -25.412%, rgba(2, 0, 67, 0.47) 107.111%)",
+        }}
+      />
     </div>
   );
 };
