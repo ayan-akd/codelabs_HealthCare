@@ -2,10 +2,8 @@ import logo from "../assets/logo light.png";
 import {
   FaFacebook,
   FaInstagram,
-  FaLinkedin,
   FaYoutube,
 } from "react-icons/fa6";
-import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 const Footer = () => {
   return (

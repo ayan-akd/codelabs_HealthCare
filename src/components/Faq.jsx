@@ -1,6 +1,6 @@
 const Faq = () => {
   return (
-    <div className="mx-48 text-black ">
+    <div className="mx-48 my-20 text-black ">
       <button className="border border-black rounded-[32px] px-6 py-2">
         Faq
       </button>
@@ -16,7 +16,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="collapse collapse-arrow bg-[#FFFFF5] mb-3 rounded-lg">
-          <input type="radio" name="my-accordion-3" defaultChecked />
+          <input type="radio" name="my-accordion-3"  />
           <div className="collapse-title text-xl font-medium leading-6 capitalize px-12">
           How can I schedule an appointment?
           </div>
@@ -25,7 +25,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="collapse collapse-arrow bg-[#FFFFF5] mb-3 rounded-lg">
-          <input type="radio" name="my-accordion-3" defaultChecked />
+          <input type="radio" name="my-accordion-3"  />
           <div className="collapse-title text-xl font-medium leading-6 capitalize px-12">
           Do you accept insurance?
           </div>
@@ -34,7 +34,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="collapse collapse-arrow bg-[#FFFFF5] mb-3 rounded-lg">
-          <input type="radio" name="my-accordion-3" defaultChecked />
+          <input type="radio" name="my-accordion-3"  />
           <div className="collapse-title text-xl font-medium leading-6 capitalize px-12">
           What should I bring to my appointment??
           </div>
@@ -43,7 +43,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="collapse collapse-arrow bg-[#FFFFF5] rounded-lg">
-          <input type="radio" name="my-accordion-3" defaultChecked />
+          <input type="radio" name="my-accordion-3"  />
           <div className="collapse-title text-xl font-medium leading-6 capitalize px-12">
            Do you offer telemedicine appointments?
           </div>
