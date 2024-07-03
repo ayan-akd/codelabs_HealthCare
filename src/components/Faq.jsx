@@ -1,7 +1,7 @@
 const Faq = () => {
   return (
     <div className="mx-48 my-20 text-black ">
-      <button className="border border-black rounded-[32px] px-6 py-2">
+      <button className="border border-[#343268] rounded-[32px] px-6 py-2">
         Faq
       </button>
       <h2 className="font-semibold text-4xl mt-4 mb-8">Frequently Asked Question</h2>
