@@ -20,7 +20,7 @@ const BottomBanner = () => {
           Get Your <br /> First Appointment <br /> at 50% Off!
         </h2>
         <div className="flex gap-6 mt-6">
-          <button className="text-black font-bold border border-yellow-500 bg-yellow-500 px-6 py-3 flex gap-2 items-center rounded-xl">
+          <button className="text-black font-medium border border-yellow-500 bg-yellow-500 px-6 py-3 flex gap-2 items-center rounded-xl">
             Appointment <MdArrowOutward />
           </button>
           <button className="text-white font-medium border border-white px-6 py-2 rounded-xl flex gap-x-1 items-center">

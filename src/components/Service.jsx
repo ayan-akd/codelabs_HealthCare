@@ -20,7 +20,7 @@ const Service = () => {
             every patient we serve. Whatever your healthcare needs may be, you
             can trust us to be your partner in health and wellness.
           </p>
-          <button className="text-black font-bold border border-yellow-500 bg-yellow-500 px-6 py-3 flex gap-2 items-center rounded-xl">
+          <button className="text-black font-medium border border-yellow-500 bg-yellow-500 px-6 py-3 flex gap-2 items-center rounded-xl">
             Appointment <MdArrowOutward />
           </button>
         </div>
