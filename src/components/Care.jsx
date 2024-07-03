@@ -68,7 +68,7 @@ const Care = () => {
       </div>
 
       {/* third column */}
-      <div className="px-5 text-[#FBFBFB] shadow-xl rounded-2xl border-2 py-4 w-[350px]">
+      <div className="px-5 text-[#FBFBFB] shadow-xl rounded-2xl border-2 py-6 w-[350px]">
         <p className="text-black text-5xl font-bold mb-2 mt-4">50+</p>
         <p className="text-black text-sm mb-4">
           Free lesion video for patient.
